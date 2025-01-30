@@ -10,4 +10,6 @@ To run the solution:
   - Run the Sender, Receiver, and SCIntegrationEvents projects
 
 To test the solution:
-  Once all the projects are running and you see Healthy endpoints in ServicePulse, close either Sender or Receiver and wait for SCIntegrationEvents to log that the Heartbeat has stopped. Once received, start the previously stopped project again and wait for the Heartbeat restored log entry.
+  - Confirm you see 2 healthy endpoints in ServicePulse
+  - Close either Sender or Receiver and wait for SCIntegrationEvents to log that the Heartbeat has stopped.
+  - Once received, start the previously stopped project again and wait for the Heartbeat restored log entry.
